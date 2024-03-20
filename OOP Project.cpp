@@ -35,7 +35,8 @@ class employee
 };
 
 int main() {
-    employee emp1("John", "Manager", 30, 50000);
+    employee emp1("John", "Manager", 30, 50000)<< endl;
+	
     emp1.print_info();
     return 0;
 }
